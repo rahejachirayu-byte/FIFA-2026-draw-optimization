@@ -1,0 +1,2 @@
+n_valid_draws,total_attempts,acceptance_rate,pots,groups,teams,host_prefill,confederation_rule,note
+2000,2001,0.9995,4,12,48,"USA -> Group D, Mexico -> Group A, Canada -> Group B",Max 2 UEFA per group; max 1 team per other confederation,Demo-scale constrained Monte Carlo. Real FIFA rules are more complex; this is illustrative.

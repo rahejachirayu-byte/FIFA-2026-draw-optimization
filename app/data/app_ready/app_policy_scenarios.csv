@@ -1,0 +1,6 @@
+scenario,total_revenue_usd,revenue_change_vs_baseline_pct,equity_score,utilization_proxy,travel_regions_touched,top_country,top_country_share
+baseline,645285974,0.0,0.484,0.682,7,USA,0.82
+revenue_first,662455717,2.66,0.443,0.664,7,USA,0.859
+fairness,640419546,-0.75,0.524,0.692,7,USA,0.782
+low_travel,646788766,0.23,0.484,0.68,7,USA,0.82
+balanced,645554546,0.04,0.5,0.682,7,USA,0.805

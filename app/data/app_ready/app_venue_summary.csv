@@ -1,0 +1,17 @@
+venue,city,state,country,capacity,total_matches,total_revenue_base_usd,total_revenue_low_usd,total_revenue_high_usd,avg_revenue_per_match_usd,is_final_host
+MetLife Stadium,New York/New Jersey,NJ,USA,82500,8,88628572,70902857,106354285,11078572.0,True
+AT&T Stadium,Dallas/Arlington,TX,USA,80000,8,72571429,58057142,87085713,9071429.0,False
+Mercedes-Benz Stadium,Atlanta,GA,USA,71000,8,64407142,51525713,77288571,8050893.0,False
+SoFi Stadium,Los Angeles,CA,USA,70000,8,46800000,37440000,56160000,5850000.0,False
+NRG Stadium,Houston,TX,USA,72220,7,43435172,34748138,52122206,6205025.0,False
+Arrowhead Stadium,Kansas City,MO,USA,76416,6,40827977,32662381,48993572,6804663.0,False
+Gillette Stadium,Foxborough,MA,USA,65878,7,39620912,31696730,47545094,5660130.0,False
+Hard Rock Stadium,Miami Gardens,FL,USA,65000,7,39464287,31571429,47357142,5637755.0,False
+Estadio Azteca,Mexico City,CDMX,Mexico,87000,5,33432857,26746285,40119428,6686571.0,False
+Lincoln Financial Field,Philadelphia,PA,USA,69000,6,31148572,24918858,37378286,5191429.0,False
+Lumen Field,Seattle,WA,USA,68740,6,31031200,24824960,37237440,5171867.0,False
+Levi's Stadium,Santa Clara,CA,USA,68500,6,30922858,24738286,37107428,5153810.0,False
+BC Place,Vancouver,BC,Canada,54500,7,28262143,22609714,33914571,4037449.0,False
+BMO Field,Toronto,ON,Canada,45000,7,23335714,18668571,28002857,3333673.0,False
+Estadio BBVA,Monterrey,NL,Mexico,51000,4,16174286,12939429,19409143,4043572.0,False
+Estadio Akron,Guadalajara,JAL,Mexico,48000,4,15222857,12178286,18267429,3805714.0,False

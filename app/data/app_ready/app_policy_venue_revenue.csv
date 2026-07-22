@@ -1,0 +1,81 @@
+venue,country,revenue,scenario
+AT&T Stadium,USA,72571428.57142857,baseline
+Arrowhead Stadium,USA,40827977.14285715,baseline
+BC Place,Canada,28262142.85714286,baseline
+BMO Field,Canada,23335714.28571429,baseline
+Estadio Akron,Mexico,15222857.142857144,baseline
+Estadio Azteca,Mexico,33432857.142857146,baseline
+Estadio BBVA,Mexico,16174285.714285713,baseline
+Gillette Stadium,USA,39620911.428571425,baseline
+Hard Rock Stadium,USA,39464285.71428572,baseline
+Levi's Stadium,USA,30922857.142857146,baseline
+Lincoln Financial Field,USA,31148571.428571425,baseline
+Lumen Field,USA,31031200.0,baseline
+Mercedes-Benz Stadium,USA,64407142.85714286,baseline
+MetLife Stadium,USA,88628571.42857143,baseline
+NRG Stadium,USA,43435171.42857143,baseline
+SoFi Stadium,USA,46800000.0,baseline
+AT&T Stadium,USA,99200000.0,revenue_first
+Arrowhead Stadium,USA,29365577.142857146,revenue_first
+BC Place,Canada,28262142.85714286,revenue_first
+BMO Field,Canada,15107142.857142858,revenue_first
+Estadio Akron,Mexico,6445714.285714285,revenue_first
+Estadio Azteca,Mexico,33432857.142857146,revenue_first
+Estadio BBVA,Mexico,10272857.142857142,revenue_first
+Gillette Stadium,USA,39620911.428571425,revenue_first
+Hard Rock Stadium,USA,39464285.71428572,revenue_first
+Levi's Stadium,USA,30922857.142857146,revenue_first
+Lincoln Financial Field,USA,31148571.428571425,revenue_first
+Lumen Field,USA,31031200.0,revenue_first
+Mercedes-Benz Stadium,USA,53757142.85714286,revenue_first
+MetLife Stadium,USA,116089285.71428572,revenue_first
+NRG Stadium,USA,43435171.42857143,revenue_first
+SoFi Stadium,USA,54900000.0,revenue_first
+AT&T Stadium,USA,67200000.0,fairness
+Arrowhead Stadium,USA,40827977.14285715,fairness
+BC Place,Canada,31921428.57142857,fairness
+BMO Field,Canada,26357142.857142862,fairness
+Estadio Akron,Mexico,18445714.285714284,fairness
+Estadio Azteca,Mexico,43500000.0,fairness
+Estadio BBVA,Mexico,19598571.428571425,fairness
+Gillette Stadium,USA,39620911.428571425,fairness
+Hard Rock Stadium,USA,39464285.71428572,fairness
+Levi's Stadium,USA,26323571.42857143,fairness
+Lincoln Financial Field,USA,23164285.714285713,fairness
+Lumen Field,USA,31031200.0,fairness
+Mercedes-Benz Stadium,USA,59640000.0,fairness
+MetLife Stadium,USA,83089285.71428572,fairness
+NRG Stadium,USA,43435171.42857143,fairness
+SoFi Stadium,USA,46800000.0,fairness
+AT&T Stadium,USA,72571428.57142857,low_travel
+Arrowhead Stadium,USA,40827977.14285715,low_travel
+BC Place,Canada,28262142.85714286,low_travel
+BMO Field,Canada,23335714.28571429,low_travel
+Estadio Akron,Mexico,15222857.142857144,low_travel
+Estadio Azteca,Mexico,33432857.142857146,low_travel
+Estadio BBVA,Mexico,16174285.714285713,low_travel
+Gillette Stadium,USA,35197674.28571428,low_travel
+Hard Rock Stadium,USA,35100000.0,low_travel
+Levi's Stadium,USA,35522142.85714286,low_travel
+Lincoln Financial Field,USA,31148571.428571425,low_travel
+Lumen Field,USA,26415800.0,low_travel
+Mercedes-Benz Stadium,USA,69174285.7142857,low_travel
+MetLife Stadium,USA,94167857.14285713,low_travel
+NRG Stadium,USA,43435171.42857143,low_travel
+SoFi Stadium,USA,46800000.0,low_travel
+AT&T Stadium,USA,72571428.57142857,balanced
+Arrowhead Stadium,USA,40827977.14285715,balanced
+BC Place,Canada,31921428.57142857,balanced
+BMO Field,Canada,23335714.28571429,balanced
+Estadio Akron,Mexico,15222857.142857144,balanced
+Estadio Azteca,Mexico,39274285.71428572,balanced
+Estadio BBVA,Mexico,16174285.714285713,balanced
+Gillette Stadium,USA,39620911.428571425,balanced
+Hard Rock Stadium,USA,39464285.71428572,balanced
+Levi's Stadium,USA,26323571.42857143,balanced
+Lincoln Financial Field,USA,26515714.285714284,balanced
+Lumen Field,USA,31031200.0,balanced
+Mercedes-Benz Stadium,USA,64407142.85714286,balanced
+MetLife Stadium,USA,88628571.42857143,balanced
+NRG Stadium,USA,43435171.42857143,balanced
+SoFi Stadium,USA,46800000.0,balanced

@@ -1,0 +1,5 @@
+artifact_role,model,target,available_detail,recommended_use,note
+presentation_holdout_view,xgboost,attendance,Recovered summary metrics only,Appendix sanity check,"If the original row-level holdout file is available locally, keep it in appendix and add absolute error bands."
+presentation_holdout_view,random_forest,attendance,Recovered summary metrics only,Appendix sanity check,"Useful as benchmark, not the headline model."
+presentation_holdout_view,linear_regression,attendance,Recovered summary metrics only,Diagnostic only,Negative R2 means this should not drive interpretation.
+presentation_holdout_view,xgboost,revenue_proxy,Recovered summary metrics only,Appendix only,Do not present as learned revenue causality because stage drives the target.

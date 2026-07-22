@@ -1,0 +1,2 @@
+model,status,feature,importance,note
+linear_regression,Baseline diagnostic only,Do not present as substantive feature ranking,,Negative attendance R2 and much weaker fit mean this model should stay in appendix as a sanity check.

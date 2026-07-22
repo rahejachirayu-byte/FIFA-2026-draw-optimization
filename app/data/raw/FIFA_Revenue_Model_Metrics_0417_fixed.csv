@@ -1,0 +1,7 @@
+target,specification,model,rmse,rmse_unit,r2,mape,presentation_role,keep_status
+attendance,observed_attendance_signal,xgboost,13145,attendees,0.17,0.213,Primary attendance benchmark,Keep
+attendance,observed_attendance_signal,random_forest,13725,attendees,0.1,0.243,Supporting tree benchmark,Keep
+attendance,observed_attendance_signal,linear_regression,18545,attendees,-0.65,0.325,Baseline diagnostic only,Demote
+revenue_proxy,revenue_proxy_full,xgboost,2210000,usd,0.839,0.224,Diagnostic only; stage-inflated fit,Appendix
+revenue_proxy,revenue_proxy_full,random_forest,2230000,usd,0.836,0.245,Diagnostic only; stage-inflated fit,Appendix
+revenue_proxy,revenue_proxy_full,linear_regression,3940000,usd,0.487,0.559,Baseline diagnostic only,Appendix

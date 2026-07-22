@@ -1,0 +1,2 @@
+model,status,feature,importance,note
+random_forest,Supporting / appendix,Do not foreground standalone rankings,,Model is useful as a benchmark but the cleaner capstone story should not depend on a second feature-ranking slide when the main issue is target construction.

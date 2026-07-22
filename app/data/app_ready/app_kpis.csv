@@ -1,0 +1,6 @@
+label,value,raw,unit
+Total projected revenue (base),$0.65B,645285978.0,usd
+Top projected venue,MetLife Stadium,88628572.0,usd
+Top projected host country,USA,528858121.0,usd
+Valid simulated draws,"2,000",2000.0,count
+Main model,revenue_proxy_no_stage_feature,,string

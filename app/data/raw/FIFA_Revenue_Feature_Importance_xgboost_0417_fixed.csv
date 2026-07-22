@@ -1,0 +1,21 @@
+model,model_view,feature,importance,feature_bucket,interpretation,presentation_note
+xgboost,attendance_signal_model,home_points_per_match_l5,376,Structural,Recent form of the featured team,Clean pre-match signal
+xgboost,attendance_signal_model,stadium,251,Proxy,Venue fixed effect absorbing capacity,Should be replaced with explicit stadium capacity
+xgboost,attendance_signal_model,home_team,203,Structural,Team identity and fan pull,Presentation-worthy
+xgboost,attendance_signal_model,city,142,Proxy,Market-size stand-in,Should be supplemented by metro demand fields
+xgboost,attendance_signal_model,home_pre_elo,126,Structural,Pre-match team strength,Presentation-worthy
+xgboost,attendance_signal_model,month_num,102,Weak,Timing within tournament,Do not overclaim
+xgboost,attendance_signal_model,home_goals_against_avg_l5,102,Structural,Recent defensive form,Supportive evidence
+xgboost,attendance_signal_model,elo_diff_pre,95,Structural,Competitive balance,Secondary signal
+xgboost,attendance_signal_model,home_goals_for_avg_l5,44,Structural,Recent attacking form,Supportive evidence
+xgboost,attendance_signal_model,away_expected_result,41,Structural,Away result expectation,Secondary signal
+xgboost,revenue_proxy_full,stage_detail,3806703,Mechanical,Stage-driven ticket price lookup embedded in target,Do not use as feature-discovery claim
+xgboost,revenue_proxy_full,home_pre_elo,52106,Structural,Pre-match team strength,Real signal that survives the proxy setup
+xgboost,revenue_proxy_full,home_team,28225,Structural,Team identity and fan pull,Real signal
+xgboost,revenue_proxy_full,home_points_per_match_l5,23688,Structural,Recent form,Real signal
+xgboost,revenue_proxy_full,stadium,16562,Proxy,Venue effect likely absorbing capacity and market,Needs explicit capacity
+xgboost,revenue_proxy_full,city,3572,Proxy,Market effect proxy,Needs direct market measures
+xgboost,revenue_proxy_full,home_expected_result,3296,Structural,Expected home outcome,Modest signal
+xgboost,revenue_proxy_full,away_expected_result,3205,Structural,Expected away outcome,Modest signal
+xgboost,revenue_proxy_full,year_num,0,Weak,Calendar year effect,No meaningful signal
+xgboost,revenue_proxy_full,is_weekend,-6080,Weak,Weekend flag,No stable signal

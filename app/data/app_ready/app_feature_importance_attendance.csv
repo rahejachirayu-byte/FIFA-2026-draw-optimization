@@ -1,0 +1,11 @@
+model,model_view,feature,importance,feature_bucket,interpretation,presentation_note,presentation_priority,share_of_total,rank
+xgboost,attendance_signal_model,home_points_per_match_l5,376,Structural,Recent form of the featured team,Clean pre-match signal,Main story,0.2537,1
+xgboost,attendance_signal_model,stadium,251,Proxy,Venue fixed effect absorbing capacity,Should be replaced with explicit stadium capacity,Support with caveat,0.1694,2
+xgboost,attendance_signal_model,home_team,203,Structural,Team identity and fan pull,Presentation-worthy,Main story,0.137,3
+xgboost,attendance_signal_model,city,142,Proxy,Market-size stand-in,Should be supplemented by metro demand fields,Support with caveat,0.0958,4
+xgboost,attendance_signal_model,home_pre_elo,126,Structural,Pre-match team strength,Presentation-worthy,Main story,0.085,5
+xgboost,attendance_signal_model,month_num,102,Weak,Timing within tournament,Do not overclaim,Appendix,0.0688,6
+xgboost,attendance_signal_model,home_goals_against_avg_l5,102,Structural,Recent defensive form,Supportive evidence,Main story,0.0688,7
+xgboost,attendance_signal_model,elo_diff_pre,95,Structural,Competitive balance,Secondary signal,Main story,0.0641,8
+xgboost,attendance_signal_model,home_goals_for_avg_l5,44,Structural,Recent attacking form,Supportive evidence,Main story,0.0297,9
+xgboost,attendance_signal_model,away_expected_result,41,Structural,Away result expectation,Secondary signal,Appendix,0.0277,10

@@ -1,0 +1,8 @@
+model,model_view,feature,importance,feature_bucket,interpretation,presentation_note,presentation_priority,model_view_display,share_of_total,rank
+xgboost,revenue_proxy_full,home_pre_elo,52106,Structural,Pre-match team strength,Real signal that survives the proxy setup,Main story,revenue_proxy_no_stage_feature (main model),0.3988,1
+xgboost,revenue_proxy_full,home_team,28225,Structural,Team identity and fan pull,Real signal,Main story,revenue_proxy_no_stage_feature (main model),0.216,2
+xgboost,revenue_proxy_full,home_points_per_match_l5,23688,Structural,Recent form,Real signal,Main story,revenue_proxy_no_stage_feature (main model),0.1813,3
+xgboost,revenue_proxy_full,stadium,16562,Proxy,Venue effect likely absorbing capacity and market,Needs explicit capacity,Support with caveat,revenue_proxy_no_stage_feature (main model),0.1268,4
+xgboost,revenue_proxy_full,city,3572,Proxy,Market effect proxy,Needs direct market measures,Support with caveat,revenue_proxy_no_stage_feature (main model),0.0273,5
+xgboost,revenue_proxy_full,home_expected_result,3296,Structural,Expected home outcome,Modest signal,Appendix,revenue_proxy_no_stage_feature (main model),0.0252,6
+xgboost,revenue_proxy_full,away_expected_result,3205,Structural,Expected away outcome,Modest signal,Appendix,revenue_proxy_no_stage_feature (main model),0.0245,7

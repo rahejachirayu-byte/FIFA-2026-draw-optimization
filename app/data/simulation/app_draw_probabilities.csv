@@ -1,0 +1,577 @@
+team,group,probability
+Argentina,A,0.0
+Argentina,B,0.0
+Argentina,C,0.106
+Argentina,D,0.0
+Argentina,E,0.115
+Argentina,F,0.1095
+Argentina,G,0.1195
+Argentina,H,0.1065
+Argentina,I,0.1145
+Argentina,J,0.11
+Argentina,K,0.1045
+Argentina,L,0.1145
+France,A,0.0
+France,B,0.0
+France,C,0.109
+France,D,0.0
+France,E,0.1185
+France,F,0.1045
+France,G,0.1195
+France,H,0.1065
+France,I,0.116
+France,J,0.1165
+France,K,0.1025
+France,L,0.107
+Spain,A,0.0
+Spain,B,0.0
+Spain,C,0.107
+Spain,D,0.0
+Spain,E,0.115
+Spain,F,0.118
+Spain,G,0.104
+Spain,H,0.1175
+Spain,I,0.1115
+Spain,J,0.1035
+Spain,K,0.1155
+Spain,L,0.108
+England,A,0.0
+England,B,0.0
+England,C,0.116
+England,D,0.0
+England,E,0.104
+England,F,0.1065
+England,G,0.1195
+England,H,0.1065
+England,I,0.1085
+England,J,0.106
+England,K,0.1235
+England,L,0.1095
+Brazil,A,0.0
+Brazil,B,0.0
+Brazil,C,0.1135
+Brazil,D,0.0
+Brazil,E,0.098
+Brazil,F,0.101
+Brazil,G,0.1115
+Brazil,H,0.1075
+Brazil,I,0.123
+Brazil,J,0.1235
+Brazil,K,0.1195
+Brazil,L,0.1025
+Portugal,A,0.0
+Portugal,B,0.0
+Portugal,C,0.117
+Portugal,D,0.0
+Portugal,E,0.109
+Portugal,F,0.116
+Portugal,G,0.106
+Portugal,H,0.1125
+Portugal,I,0.108
+Portugal,J,0.111
+Portugal,K,0.111
+Portugal,L,0.1095
+Netherlands,A,0.0
+Netherlands,B,0.0
+Netherlands,C,0.1045
+Netherlands,D,0.0
+Netherlands,E,0.117
+Netherlands,F,0.1255
+Netherlands,G,0.12
+Netherlands,H,0.1075
+Netherlands,I,0.1025
+Netherlands,J,0.1095
+Netherlands,K,0.0945
+Netherlands,L,0.119
+Germany,A,0.0
+Germany,B,0.0
+Germany,C,0.111
+Germany,D,0.0
+Germany,E,0.1125
+Germany,F,0.1125
+Germany,G,0.0955
+Germany,H,0.1165
+Germany,I,0.11
+Germany,J,0.1105
+Germany,K,0.123
+Germany,L,0.1085
+Belgium,A,0.0
+Belgium,B,0.0
+Belgium,C,0.116
+Belgium,D,0.0
+Belgium,E,0.111
+Belgium,F,0.1065
+Belgium,G,0.1045
+Belgium,H,0.119
+Belgium,I,0.106
+Belgium,J,0.1095
+Belgium,K,0.106
+Belgium,L,0.1215
+Mexico,A,1.0
+Mexico,B,0.0
+Mexico,C,0.0
+Mexico,D,0.0
+Mexico,E,0.0
+Mexico,F,0.0
+Mexico,G,0.0
+Mexico,H,0.0
+Mexico,I,0.0
+Mexico,J,0.0
+Mexico,K,0.0
+Mexico,L,0.0
+USA,A,0.0
+USA,B,0.0
+USA,C,0.0
+USA,D,1.0
+USA,E,0.0
+USA,F,0.0
+USA,G,0.0
+USA,H,0.0
+USA,I,0.0
+USA,J,0.0
+USA,K,0.0
+USA,L,0.0
+Canada,A,0.0
+Canada,B,1.0
+Canada,C,0.0
+Canada,D,0.0
+Canada,E,0.0
+Canada,F,0.0
+Canada,G,0.0
+Canada,H,0.0
+Canada,I,0.0
+Canada,J,0.0
+Canada,K,0.0
+Canada,L,0.0
+Italy,A,0.0765
+Italy,B,0.09
+Italy,C,0.0885
+Italy,D,0.079
+Italy,E,0.0845
+Italy,F,0.066
+Italy,G,0.095
+Italy,H,0.0855
+Italy,I,0.0895
+Italy,J,0.077
+Italy,K,0.087
+Italy,L,0.0815
+Morocco,A,0.079
+Morocco,B,0.0725
+Morocco,C,0.0855
+Morocco,D,0.074
+Morocco,E,0.088
+Morocco,F,0.0865
+Morocco,G,0.09
+Morocco,H,0.096
+Morocco,I,0.0855
+Morocco,J,0.0815
+Morocco,K,0.0795
+Morocco,L,0.082
+Croatia,A,0.0675
+Croatia,B,0.0835
+Croatia,C,0.0935
+Croatia,D,0.0765
+Croatia,E,0.0795
+Croatia,F,0.083
+Croatia,G,0.0805
+Croatia,H,0.0915
+Croatia,I,0.0905
+Croatia,J,0.0925
+Croatia,K,0.0765
+Croatia,L,0.085
+Japan,A,0.082
+Japan,B,0.081
+Japan,C,0.084
+Japan,D,0.0865
+Japan,E,0.0815
+Japan,F,0.091
+Japan,G,0.0725
+Japan,H,0.084
+Japan,I,0.0775
+Japan,J,0.083
+Japan,K,0.0885
+Japan,L,0.0885
+Uruguay,A,0.102
+Uruguay,B,0.0935
+Uruguay,C,0.072
+Uruguay,D,0.1075
+Uruguay,E,0.077
+Uruguay,F,0.077
+Uruguay,G,0.0885
+Uruguay,H,0.085
+Uruguay,I,0.0655
+Uruguay,J,0.072
+Uruguay,K,0.0805
+Uruguay,L,0.0795
+Senegal,A,0.0805
+Senegal,B,0.072
+Senegal,C,0.078
+Senegal,D,0.071
+Senegal,E,0.093
+Senegal,F,0.0945
+Senegal,G,0.09
+Senegal,H,0.071
+Senegal,I,0.09
+Senegal,J,0.0955
+Senegal,K,0.0805
+Senegal,L,0.084
+Colombia,A,0.104
+Colombia,B,0.105
+Colombia,C,0.072
+Colombia,D,0.1065
+Colombia,E,0.0755
+Colombia,F,0.0855
+Colombia,G,0.078
+Colombia,H,0.082
+Colombia,I,0.0755
+Colombia,J,0.0705
+Colombia,K,0.079
+Colombia,L,0.0665
+Switzerland,A,0.076
+Switzerland,B,0.069
+Switzerland,C,0.081
+Switzerland,D,0.071
+Switzerland,E,0.0875
+Switzerland,F,0.097
+Switzerland,G,0.092
+Switzerland,H,0.082
+Switzerland,I,0.0855
+Switzerland,J,0.082
+Switzerland,K,0.0835
+Switzerland,L,0.0935
+Denmark,A,0.0725
+Denmark,B,0.0795
+Denmark,C,0.092
+Denmark,D,0.0785
+Denmark,E,0.0815
+Denmark,F,0.0825
+Denmark,G,0.0855
+Denmark,H,0.084
+Denmark,I,0.0845
+Denmark,J,0.085
+Denmark,K,0.0805
+Denmark,L,0.094
+Ecuador,A,0.0955
+Ecuador,B,0.109
+Ecuador,C,0.0755
+Ecuador,D,0.093
+Ecuador,E,0.0825
+Ecuador,F,0.066
+Ecuador,G,0.0675
+Ecuador,H,0.0805
+Ecuador,I,0.08
+Ecuador,J,0.0775
+Ecuador,K,0.0965
+Ecuador,L,0.0765
+South Korea,A,0.0815
+South Korea,B,0.0605
+South Korea,C,0.091
+South Korea,D,0.076
+South Korea,E,0.089
+South Korea,F,0.0795
+South Korea,G,0.0875
+South Korea,H,0.0805
+South Korea,I,0.0865
+South Korea,J,0.0975
+South Korea,K,0.08
+South Korea,L,0.0905
+Iran,A,0.083
+Iran,B,0.0845
+Iran,C,0.087
+Iran,D,0.0805
+Iran,E,0.0805
+Iran,F,0.0915
+Iran,G,0.073
+Iran,H,0.078
+Iran,I,0.0895
+Iran,J,0.086
+Iran,K,0.088
+Iran,L,0.0785
+Australia,A,0.067
+Australia,B,0.069
+Australia,C,0.0875
+Australia,D,0.071
+Australia,E,0.1
+Australia,F,0.086
+Australia,G,0.096
+Australia,H,0.086
+Australia,I,0.084
+Australia,J,0.0865
+Australia,K,0.0875
+Australia,L,0.0795
+Serbia,A,0.1025
+Serbia,B,0.086
+Serbia,C,0.0815
+Serbia,D,0.098
+Serbia,E,0.07
+Serbia,F,0.0815
+Serbia,G,0.0855
+Serbia,H,0.0755
+Serbia,I,0.082
+Serbia,J,0.08
+Serbia,K,0.081
+Serbia,L,0.0765
+Poland,A,0.0995
+Poland,B,0.101
+Poland,C,0.0835
+Poland,D,0.1
+Poland,E,0.0755
+Poland,F,0.0635
+Poland,G,0.0725
+Poland,H,0.0785
+Poland,I,0.077
+Poland,J,0.0885
+Poland,K,0.0795
+Poland,L,0.081
+Egypt,A,0.075
+Egypt,B,0.0765
+Egypt,C,0.0895
+Egypt,D,0.0595
+Egypt,E,0.092
+Egypt,F,0.0865
+Egypt,G,0.0895
+Egypt,H,0.0965
+Egypt,I,0.09
+Egypt,J,0.077
+Egypt,K,0.0845
+Egypt,L,0.0835
+Algeria,A,0.073
+Algeria,B,0.0675
+Algeria,C,0.0895
+Algeria,D,0.0655
+Algeria,E,0.0885
+Algeria,F,0.0945
+Algeria,G,0.0785
+Algeria,H,0.0855
+Algeria,I,0.0865
+Algeria,J,0.081
+Algeria,K,0.099
+Algeria,L,0.091
+Tunisia,A,0.0635
+Tunisia,B,0.0685
+Tunisia,C,0.0865
+Tunisia,D,0.0635
+Tunisia,E,0.08
+Tunisia,F,0.089
+Tunisia,G,0.0835
+Tunisia,H,0.0955
+Tunisia,I,0.0895
+Tunisia,J,0.087
+Tunisia,K,0.093
+Tunisia,L,0.1005
+Nigeria,A,0.064
+Nigeria,B,0.053
+Nigeria,C,0.0915
+Nigeria,D,0.0575
+Nigeria,E,0.085
+Nigeria,F,0.0895
+Nigeria,G,0.0965
+Nigeria,H,0.0975
+Nigeria,I,0.098
+Nigeria,J,0.0875
+Nigeria,K,0.081
+Nigeria,L,0.099
+Norway,A,0.0935
+Norway,B,0.09
+Norway,C,0.079
+Norway,D,0.095
+Norway,E,0.088
+Norway,F,0.082
+Norway,G,0.083
+Norway,H,0.073
+Norway,I,0.089
+Norway,J,0.0715
+Norway,K,0.0755
+Norway,L,0.0805
+Sweden,A,0.092
+Sweden,B,0.101
+Sweden,C,0.072
+Sweden,D,0.093
+Sweden,E,0.079
+Sweden,F,0.0875
+Sweden,G,0.082
+Sweden,H,0.084
+Sweden,I,0.075
+Sweden,J,0.0795
+Sweden,K,0.084
+Sweden,L,0.071
+Paraguay,A,0.0775
+Paraguay,B,0.082
+Paraguay,C,0.0905
+Paraguay,D,0.0935
+Paraguay,E,0.0825
+Paraguay,F,0.0815
+Paraguay,G,0.075
+Paraguay,H,0.074
+Paraguay,I,0.083
+Paraguay,J,0.104
+Paraguay,K,0.0745
+Paraguay,L,0.082
+Turkey,A,0.095
+Turkey,B,0.0965
+Turkey,C,0.0615
+Turkey,D,0.1035
+Turkey,E,0.087
+Turkey,F,0.0755
+Turkey,G,0.0745
+Turkey,H,0.07
+Turkey,I,0.0825
+Turkey,J,0.084
+Turkey,K,0.09
+Turkey,L,0.08
+Austria,A,0.0975
+Austria,B,0.109
+Austria,C,0.0875
+Austria,D,0.1
+Austria,E,0.0725
+Austria,F,0.083
+Austria,G,0.0835
+Austria,H,0.084
+Austria,I,0.0635
+Austria,J,0.0735
+Austria,K,0.0705
+Austria,L,0.0755
+Panama,A,0.0
+Panama,B,0.0
+Panama,C,0.1175
+Panama,D,0.0
+Panama,E,0.11
+Panama,F,0.1175
+Panama,G,0.1055
+Panama,H,0.1065
+Panama,I,0.113
+Panama,J,0.1095
+Panama,K,0.1045
+Panama,L,0.116
+Costa Rica,A,0.0
+Costa Rica,B,0.0
+Costa Rica,C,0.099
+Costa Rica,D,0.0
+Costa Rica,E,0.1165
+Costa Rica,F,0.1065
+Costa Rica,G,0.1215
+Costa Rica,H,0.1235
+Costa Rica,I,0.11
+Costa Rica,J,0.112
+Costa Rica,K,0.107
+Costa Rica,L,0.104
+Jamaica,A,0.0
+Jamaica,B,0.0
+Jamaica,C,0.1215
+Jamaica,D,0.0
+Jamaica,E,0.1075
+Jamaica,F,0.1175
+Jamaica,G,0.1085
+Jamaica,H,0.1115
+Jamaica,I,0.113
+Jamaica,J,0.0985
+Jamaica,K,0.1105
+Jamaica,L,0.1115
+Qatar,A,0.0995
+Qatar,B,0.106
+Qatar,C,0.084
+Qatar,D,0.1125
+Qatar,E,0.075
+Qatar,F,0.071
+Qatar,G,0.0755
+Qatar,H,0.0735
+Qatar,I,0.0785
+Qatar,J,0.0795
+Qatar,K,0.07
+Qatar,L,0.075
+Saudi Arabia,A,0.117
+Saudi Arabia,B,0.0955
+Saudi Arabia,C,0.0735
+Saudi Arabia,D,0.0915
+Saudi Arabia,E,0.0825
+Saudi Arabia,F,0.0755
+Saudi Arabia,G,0.0685
+Saudi Arabia,H,0.08
+Saudi Arabia,I,0.0845
+Saudi Arabia,J,0.0825
+Saudi Arabia,K,0.0765
+Saudi Arabia,L,0.0725
+Uzbekistan,A,0.0975
+Uzbekistan,B,0.1035
+Uzbekistan,C,0.0745
+Uzbekistan,D,0.102
+Uzbekistan,E,0.067
+Uzbekistan,F,0.078
+Uzbekistan,G,0.0975
+Uzbekistan,H,0.0735
+Uzbekistan,I,0.08
+Uzbekistan,J,0.07
+Uzbekistan,K,0.0815
+Uzbekistan,L,0.075
+Iraq,A,0.0905
+Iraq,B,0.094
+Iraq,C,0.0725
+Iraq,D,0.0995
+Iraq,E,0.0875
+Iraq,F,0.074
+Iraq,G,0.0825
+Iraq,H,0.075
+Iraq,I,0.0725
+Iraq,J,0.0935
+Iraq,K,0.0805
+Iraq,L,0.078
+Ghana,A,0.104
+Ghana,B,0.1085
+Ghana,C,0.083
+Ghana,D,0.1145
+Ghana,E,0.075
+Ghana,F,0.0695
+Ghana,G,0.0705
+Ghana,H,0.0795
+Ghana,I,0.0695
+Ghana,J,0.069
+Ghana,K,0.0795
+Ghana,L,0.0775
+Cameroon,A,0.1065
+Cameroon,B,0.1155
+Cameroon,C,0.069
+Cameroon,D,0.1185
+Cameroon,E,0.075
+Cameroon,F,0.0755
+Cameroon,G,0.0555
+Cameroon,H,0.0705
+Cameroon,I,0.08
+Cameroon,J,0.0745
+Cameroon,K,0.0805
+Cameroon,L,0.079
+Ivory Coast,A,0.1095
+Ivory Coast,B,0.119
+Ivory Coast,C,0.0645
+Ivory Coast,D,0.127
+Ivory Coast,E,0.075
+Ivory Coast,F,0.073
+Ivory Coast,G,0.0815
+Ivory Coast,H,0.067
+Ivory Coast,I,0.064
+Ivory Coast,J,0.0795
+Ivory Coast,K,0.067
+Ivory Coast,L,0.073
+New Zealand,A,0.128
+New Zealand,B,0.1245
+New Zealand,C,0.0735
+New Zealand,D,0.113
+New Zealand,E,0.065
+New Zealand,F,0.075
+New Zealand,G,0.0625
+New Zealand,H,0.0705
+New Zealand,I,0.071
+New Zealand,J,0.07
+New Zealand,K,0.0725
+New Zealand,L,0.0745
+Bolivia,A,0.1475
+Bolivia,B,0.1335
+Bolivia,C,0.0675
+Bolivia,D,0.1215
+Bolivia,E,0.064
+Bolivia,F,0.067
+Bolivia,G,0.0705
+Bolivia,H,0.069
+Bolivia,I,0.064
+Bolivia,J,0.0615
+Bolivia,K,0.07
+Bolivia,L,0.064

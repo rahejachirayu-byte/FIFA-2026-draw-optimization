@@ -1,0 +1,8 @@
+stage,matches,avg_attendance,base_price_usd,median_proxy_revenue_usd,presentation_use,story_note
+Final,19,76470,450,33100000,Headline economics,High revenue is partly real demand and partly assumed premium pricing.
+Semi-finals,34,58956,350,21400000,Supporting economics,Later-round economics rise sharply because price and demand move together.
+Quarter-finals,62,44544,250,10500000,Supporting economics,Useful mid-tier benchmark.
+Third place,18,52569,210,10900000,Appendix,Interesting but not central to the capstone story.
+Round of 16,63,51593,175,8100000,Supporting economics,Good bridge from group stage to premium rounds.
+Group,622,43025,120,4700000,Core baseline,Main baseline for tournament-scale planning.
+Early knockout,9,16120,145,2000000,Appendix,Sparse stage bucket; do not feature heavily.

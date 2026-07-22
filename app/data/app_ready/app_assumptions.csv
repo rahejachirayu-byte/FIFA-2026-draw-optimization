@@ -1,0 +1,14 @@
+assumption_group,assumption,value,status,presentation_guidance,source_basis
+target_definition,ticket_revenue_proxy_base_usd,attendance * assumed stage price,Proxy,"Always call this proxy or scenario revenue, not observed revenue.",Executed project summary
+primary_model_choice,main_feature_discovery_spec,attendance_equivalent_after_price_removal,Recommended,"Lead with demand drivers first, revenue second.",Folder audit
+secondary_model_choice,bridge_spec,revenue_proxy_no_stage_feature,Supporting,Use to connect demand signals to scenario planning.,Folder audit
+appendix_model_choice,diagnostic_spec,revenue_proxy_full,Appendix,Show only as cautionary evidence of stage leakage.,Folder audit
+stage_price,Group,120,Assumed,Keep clearly separated from observed quantities.,Executed project summary
+stage_price,Early knockout,145,Assumed,Keep clearly separated from observed quantities.,Executed project summary
+stage_price,Round of 16,175,Assumed,Keep clearly separated from observed quantities.,Executed project summary
+stage_price,Third place,210,Assumed,Keep clearly separated from observed quantities.,Executed project summary
+stage_price,Quarter-finals,250,Assumed,Keep clearly separated from observed quantities.,Executed project summary
+stage_price,Semi-finals,350,Assumed,Keep clearly separated from observed quantities.,Executed project summary
+stage_price,Final,450,Assumed,Keep clearly separated from observed quantities.,Executed project summary
+model_role,linear_regression,Baseline diagnostic only,Demoted,Do not use for narrative claims.,Folder audit
+narrative_guardrail,revenue_accuracy_claim,Do not claim true revenue forecast accuracy,Required,"Say scenario planning tool, not audited revenue forecast.",Folder audit

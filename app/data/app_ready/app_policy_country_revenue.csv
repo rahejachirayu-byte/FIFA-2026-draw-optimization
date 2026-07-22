@@ -1,0 +1,16 @@
+country,revenue,scenario
+Canada,51597857.14285715,baseline
+Mexico,64830000.0,baseline
+USA,528858117.14285713,baseline
+Canada,43369285.71428572,revenue_first
+Mexico,50151428.571428575,revenue_first
+USA,568935002.8571428,revenue_first
+Canada,58278571.42857143,fairness
+Mexico,81544285.71428572,fairness
+USA,500596688.5714286,fairness
+Canada,51597857.14285715,low_travel
+Mexico,64830000.0,low_travel
+USA,530360908.57142854,low_travel
+Canada,55257142.857142866,balanced
+Mexico,70671428.57142857,balanced
+USA,519625974.28571427,balanced

@@ -1,0 +1,7 @@
+match_id,stage,group,team_a,team_b,venue,city,state,capacity,avg_fifa_rank,best_fifa_rank,rank_differential,competitiveness,combined_social_M,combined_diaspora,is_weekend,is_primetime,base_ticket_price,avg_ticket_price,hospitality_share,fill_rate,tickets_sold,ticket_revenue_M,recovery_status
+51,Group MD2,I,France,Poland,NRG Stadium,Houston,TX,72220,13.0,2,22,0.4761904761904761,265.0,83.0,1.0,0.0,85.0,88.0,0.1066666666666666,0.9741329713281957,70351.0,8.451187162112614,recovered_example_row
+52,Group MD3,I,Honduras,Poland,Hard Rock Stadium,Miami Gardens,FL,65326,44.5,24,41,0.3278688524590164,39.0,41.0,1.0,0.0,85.0,78.625,0.12,0.8508213528001545,55580.0,6.451071770447798,recovered_example_row
+53,Group MD3,I,France,Croatia,Lincoln Financial Field,Philadelphia,PA,69176,6.5,2,9,0.6896551724137931,370.0,125.0,0.0,0.0,85.0,87.12500000000001,0.12,1.0,69176.0,7.923850467508905,recovered_example_row
+54,Group MD1,J,Brazil,Wales,Lumen Field,Seattle,WA,68740,22.5,3,39,,,,,,,,,,,,partial_recovered_example_row
+66,Group MD1,L,Costa Rica,Serbia,SoFi Stadium,Inglewood,CA,70240,38.0,28,20,0.5,40.0,64.0,0.0,1.0,80.0,84.0,0.0933333333333333,0.7438191426756322,52245.0,5.656440780495478,recovered_example_row
+67,Group MD1,L,Spain,Uzbekistan,NRG Stadium,Houston,TX,72220,33.0,6,54,0.2702702702702702,270.0,106.0,0.0,0.0,80.0,88.0,0.0933333333333333,0.7930403180773842,57273.0,6.377730522637799,recovered_example_row

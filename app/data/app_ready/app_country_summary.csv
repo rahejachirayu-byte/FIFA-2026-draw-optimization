@@ -1,0 +1,4 @@
+country,venues,matches,total_revenue_base_usd,total_revenue_low_usd,total_revenue_high_usd,share_of_total
+USA,11,77,528858121,423086494,634629737,0.8196
+Mexico,3,13,64830000,51864000,77796000,0.1005
+Canada,2,14,51597857,41278285,61917428,0.08

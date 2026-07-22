@@ -1,0 +1,9 @@
+section,venue_or_group,scenario,status,presentation_use,note
+usage_rule,All venues,low,Template-ready,Scenario comparison,Populate from original 2026 venue scenario output if available; keep revenue labeled as scenario revenue.
+usage_rule,All venues,base,Template-ready,Main planning view,Use for demo and exec discussion only after direct original file is plugged back in.
+usage_rule,All venues,high,Template-ready,Sensitivity upside,"Show delta versus base, not only raw totals."
+story_anchor,Group-stage matches,base,Recovered from stage summary,Core baseline,Median proxy revenue benchmark = $4.7M per group match in the executed project summary.
+story_anchor,Round of 16,base,Recovered from stage summary,Transition benchmark,Median proxy revenue benchmark = $8.1M per Round of 16 match in the executed project summary.
+story_anchor,Quarter-finals,base,Recovered from stage summary,Premium benchmark,Median proxy revenue benchmark = $10.5M per quarter-final in the executed project summary.
+story_anchor,Semi-finals,base,Recovered from stage summary,Premium benchmark,Median proxy revenue benchmark = $21.4M per semi-final in the executed project summary.
+story_anchor,Final,base,Recovered from stage summary,Headline benchmark,Median proxy revenue benchmark = $33.1M for the final in the executed project summary.

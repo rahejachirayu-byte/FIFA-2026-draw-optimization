@@ -1,0 +1,29 @@
+{
+  "build_version": "2026-04-17-v1",
+  "primary_model": "revenue_proxy_no_stage_feature",
+  "supporting_model": "revenue_proxy_full (benchmark reference only)",
+  "sensitivity_model": "attendance_equivalent_after_price_removal",
+  "data_disclaimer": "All revenue figures are scenario / proxy revenue built on assumed stage-level ticket prices from the executed project summary. They are not audited observed revenue.",
+  "app_ready_files": [
+    "app_assumptions.csv",
+    "app_country_summary.csv",
+    "app_feature_importance_attendance.csv",
+    "app_feature_importance_benchmark.csv",
+    "app_feature_importance_main.csv",
+    "app_kpis.csv",
+    "app_model_comparison.csv",
+    "app_policy_country_revenue.csv",
+    "app_policy_scenarios.csv",
+    "app_policy_venue_revenue.csv",
+    "app_revenue_lookup.csv",
+    "app_stage_summary.csv",
+    "app_teams.csv",
+    "app_venue_stage_revenue.csv",
+    "app_venue_summary.csv"
+  ],
+  "simulation_files": [
+    "app_draw_probabilities.csv",
+    "app_matchup_summary.csv",
+    "app_simulation_summary.csv"
+  ]
+}
