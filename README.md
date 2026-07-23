@@ -2,7 +2,7 @@
 
 Simulation and optimization engine for the FIFA 2026 World Cup draw. Built as a team capstone project for the MS in Quantitative Management program at Duke Fuqua, exploring whether a data-driven redesign of the draw procedure could improve commercial value and competitive balance across the expanded 48-team format.
 
-**Live app:** [fifa-2026-draw.streamlit.app](https://fifa-2026-draw.streamlit.app) _(link goes live once deployed to Streamlit Community Cloud)_
+**Live app:** [fifa-2026-draw.streamlit.app](https://fifa-2026-draw.streamlit.app)
 
 ---
 
@@ -26,7 +26,7 @@ The current draw is largely rule-bound and random. This project asks: what would
 
 ## Key Findings
 
-_(See `docs/executive_summary.md` and `docs/key_findings.pdf` for the full write-up.)_
+_(See `app/data/raw/FIFA_Revenue_Executive_Summary_0417.md` for the full write-up.)_
 
 - Baseline vs optimized draw comparison across 10,000+ simulations
 - Revenue lift estimates from targeted matchup and venue allocation
@@ -44,47 +44,58 @@ _(See `docs/executive_summary.md` and `docs/key_findings.pdf` for the full write
 ## Repo Structure
 
 ```
-fifa-2026-draw-optimization/
-├── app.py                          Streamlit entry point
-├── requirements.txt                Python dependencies
-├── pages/                          6 Streamlit analytical views
-│   ├── 1_Executive_Summary.py
-│   ├── 2_Tournament_Scenarios.py
-│   ├── 3_Venue_Revenue_Optimization.py
-│   ├── 4_Decision_Tradeoffs.py
-│   ├── 5_Final_Recommendation.py
-│   └── 6_Methodology_Limitations.py
-├── src/                            Core logic
+FIFA-2026-draw-optimization/
+├── README.md                       This file
+├── LICENSE                         MIT license
+├── .gitignore                      Python ignore rules
+├── app/                            Interactive Streamlit application
+│   ├── app.py                      Streamlit entry point
 │   ├── build_app_data.py           Assembles app-ready data from model outputs
-│   ├── monte_carlo_sim.py          Draw simulation engine
-│   └── revenue_models.py           Revenue modeling and training
-├── data/
-│   ├── raw/                        Original inputs
-│   ├── processed/                  Model-ready datasets
-│   ├── outputs/                    Simulation results
-│   ├── data_dictionary.csv
-│   └── assumptions_registry.csv
-├── docs/                           Written deliverables
-│   ├── executive_summary.md
-│   ├── presentation_story_flow.md
-│   ├── research_memo_attendance.md
-│   ├── methodology.md
-│   ├── limitations_and_fixes.md
-│   └── key_findings.pdf
-└── assets/
-    └── screenshots/                App screenshots
+│   ├── requirements.txt            Python dependencies for the app
+│   ├── README.md                   Team's original app-level readme
+│   ├── pages/                      6 Streamlit analytical views
+│   │   ├── 1_Executive_Summary.py
+│   │   ├── 2_Tournament_Scenarios.py
+│   │   ├── 3_Venue_Revenue_Optimization.py
+│   │   ├── 4_Decision_Tradeoffs.py
+│   │   ├── 5_Final_Recommendation.py
+│   │   └── 6_Methodology_Limitations.py
+│   ├── utils/                      Core logic modules
+│   │   ├── assignment_engine.py
+│   │   ├── draw_engine.py
+│   │   ├── policy_logic.py
+│   │   ├── schedule_data.py
+│   │   ├── official_baseline.py
+│   │   ├── load_data.py
+│   │   ├── helpers.py
+│   │   ├── formatters.py
+│   │   └── validation.py
+│   └── data/                       App datasets and reference material
+│       ├── raw/                    Source data, assumptions, and written deliverables
+│       ├── app_ready/              Model-ready datasets loaded by the app
+│       └── simulation/             Simulation outputs used by the app
+└── simulation/                     Standalone Monte Carlo simulation
+    ├── Final_Monte_Carlo_Sim.py    Simulation engine
+    └── (CSV, PNG, JSON outputs from 10,000+ iteration runs)
 ```
 
 ## Running Locally
 
 ```bash
 git clone https://github.com/rahejachirayu-byte/FIFA-2026-draw-optimization.git
-cd FIFA-2026-draw-optimization
+cd FIFA-2026-draw-optimization/app
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
 The app opens at `http://localhost:8501`.
+
+To re-run the standalone Monte Carlo simulation:
+
+```bash
+cd FIFA-2026-draw-optimization/simulation
+python Final_Monte_Carlo_Sim.py
+```
 
 ## Methodology in Brief
 
@@ -92,7 +103,7 @@ The simulation engine reproduces FIFA's pot-based draw procedure with regional a
 
 The optimization layer treats the draw as a constrained assignment problem: maximize expected revenue subject to competitive balance thresholds and FIFA's non-negotiable rules (regional separation, host team placement). Trade-off curves show how much revenue is gained per unit of competitive balance relaxed.
 
-Full methodology and limitations are documented in `docs/methodology.md` and `docs/limitations_and_fixes.md`.
+Full methodology, assumptions, and change history are documented in the `app/data/raw/` folder (executive summary, presentation story flow, change log, assumptions CSV).
 
 ## What This Project Is Not
 
